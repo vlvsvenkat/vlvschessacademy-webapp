@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    font-family: 'Alkatra', cursive;
+    color: hsl(0, 100%, 99%);
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://i.pinimg.com/originals/36/b0/f9/36b0f970d94281eb98b0667390cb7754.jpg);
+  background-size: cover;
+  background-position: center;
+}
+header{
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 0px ;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.logo{
+  display: flex;
+    font-size: 2rem;
+    user-select: none;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.6rem;
+    text-align: none;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.navigation a{
+    opacity: 1;
+}
+.nav-link:hover {
+  opacity: 1;
+}
+.navigation a::before {
+  transition: all ease-in-out 0.3s;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.navigation a::before {
+  width: 0%;
+  bottom: 14px;
+}
+
+.navigation a:hover::before {
+  width: 75%;
+}
+#info{
+  display: flex;
+  height: 300px;
+  padding: 8px;
+  margin: 72px;
+  
+}
+#sponsors{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 240px;
+  padding: 2px;
+  margin: 2px;
+}
+#foot{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 57px;
+  padding: 2px;
+  margin: 2px;
+  background-color: #000;
+}
+#navbar {
+  overflow: hidden;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000;
+}
+.sticky + .content {
+  padding-top: 60px;
+} 
+#info img{
+  border-radius: 50%;
+  height: 285px;
+}
+#info p{
+  flex-direction: column;
+}
+.sponlog{
+  display: flex;
+}
+.image1{
+  height: 100px;
+  width: 130px;
+}
+.image2{
+  height: 100px;
+  width: 138px;
+}
+.image3{
+  height: 100px;
+  width: 170px;
+  filter: invert(1);
+}
+.image4{
+  height: 100px;
+  width: 204px;
+}
+.image5{
+  height: 100px;
+  width: 225px;
+  filter: invert(1);
+}
+#logopng{
+  filter: invert(1);
+  color: #fff;
+  height: 130px;
+}
+#png{
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px
+}
+p{
+  font-size: 1.2rem;
+}

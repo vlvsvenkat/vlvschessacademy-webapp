@@ -1,0 +1,41 @@
+.imgdes1,.imgdes2,.imgdes3,.imgdes4,.imgdes5{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+}
+.desc img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.img1{
+    width: 305px;
+    height: 267px;
+}
+.imgdes1 p,.imgdes2 p,.imgdes3 p,.imgdes4 p,.imgdes5 p{
+    padding-top:  10px; ;
+}
+.img2{
+    width: 305px;
+    height: 306px;
+}
+.img3{
+    width: 338px;
+    height: 313px;
+}
+.img4{
+    width: 321px;
+    height: 298px;
+}
+.img5{
+    width: 343px;
+    height: 322px;
+}
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

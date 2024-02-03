@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title Vlvs Chess Academy
+    link(rel='shortcut icon', href='static/icon.png', type='image/x-icon')
+    block style 
+    block scripts 
+  body
+    header
+        .logo
+          img#logopng(src="static/chess-39325.png", alt="logo")
+          h2 Vlvs Chess Academy
+        nav.navigation#navbar
+          a(href='/home') Home
+          a(href='/about') About
+          a(href='/course') Courses
+          a(href='/contact') Contact us
+    block content
+
+    footer#foot 
+      | Copyright @ 2023 VlvsChessAcademy.com | All Rights Reserved
+    script 
+      include ../static/script.js

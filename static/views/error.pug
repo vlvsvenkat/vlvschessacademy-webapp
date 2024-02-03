@@ -1,0 +1,12 @@
+
+
+block style 
+    style 
+        include ../static/error.css
+
+block content
+  .wrapper
+    svg.cross(viewbox="0 0 52 52")
+      circle.cross__circle(cx="26" cy="26" r="30" fill="none")
+      path.cross__mark(fill="none", d="M16 16 L36 36 M36 16 L16 36")
+    p.text(style="color: black; text-align: center; font-size: 30px; margin-top: 20px;") There Was An Error While Sending The Message.

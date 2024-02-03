@@ -1,0 +1,12 @@
+
+
+block style 
+    style 
+        include ../static/check.css
+
+block content
+  .wrapper
+    svg.checkmark(viewbox="0 0 52 52")
+      circle.checkmark__circle(cx="26" cy="26" r="50" fill="none") 
+      path.checkmark__check(fill="none", d="M14.1 27.2l7.1 7.2 16.7-16.8")
+    p.text(style="color: black; text-align: center; font-size: 30px; margin-top: 0px;") Messeage Has Been successfully Sent.

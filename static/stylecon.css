@@ -1,0 +1,74 @@
+h1, h4 {
+    text-align: center;
+}
+
+.myform {
+    display: inline-block;
+    width: 71%;
+}
+
+.myinput {
+    padding: 29px;
+    margin: 15px;
+    width: 426px;
+}
+
+.mymsg {
+    padding: 29px;
+    margin: 15px;
+    width: 960px;
+    height: 162px;
+}
+
+.mymsg,
+.myinput {
+    border-radius: 20%;
+    color: black;
+    font-size: 1.2rem;
+    border: 8px solid rgb(76, 76, 76);
+}
+
+.mybtn {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    width: 28%;
+    height: 70px;
+    border-radius: 25%;
+    margin-left: 370px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 3px;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+.mybtn:hover {
+    transition: ease-in-out;
+    border: 5px solid rgb(96, 95, 95);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .myform {
+        width: 100%;
+    }
+
+    .myinput,
+    .mymsg {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .mybtn {
+        width: 100%;
+        margin: 10px;
+        margin-left: 0;
+    }
+}
